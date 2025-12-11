@@ -1,0 +1,1 @@
+{"config": {"defaultAggregated": true, "geoms": ["auto"], "coordSystem": "generic", "limit": -1}, "encodings": {"dimensions": [], "measures": ["user_id"], "rows": ["user_id"], "columns": ["gender"], "color": [], "opacity": [], "size": [], "shape": [], "radius": [], "theta": [], "details": [], "filters": [], "text": []}}

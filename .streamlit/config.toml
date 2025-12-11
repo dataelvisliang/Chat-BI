@@ -1,0 +1,9 @@
+[deprecation]
+showPyplotGlobalUse = false
+showfileUploaderEncoding = false
+
+[runner]
+fastReruns = true
+
+[client]
+showErrorDetails = false

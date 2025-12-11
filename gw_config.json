@@ -1,0 +1,34 @@
+[
+  {
+    "visId": "users_per_gender",
+    "name": "Number of Users per Gender",
+    "encodings": {
+      "dimensions": [
+        {
+          "fid": "gender",
+          "name": "Gender",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "fid": "user_id",
+          "name": "User Count",
+          "semanticType": "quantitative",
+          "aggName": "count"
+        }
+      ],
+      "rows": [
+        {
+          "fid": "user_id",
+          "aggName": "count"
+        }
+      ],
+      "columns": [
+        {
+          "fid": "gender"
+        }
+      ]
+    }
+  }
+]
