@@ -48,8 +48,8 @@ api_key_input = st.sidebar.text_input(
 
 model_choice = st.sidebar.text_input(
     "Model",
-    value="nvidia/nemotron-nano-12b-v2-vl:free",
-    help="Enter the model name (e.g., nvidia/nemotron-nano-12b-v2-vl:free, anthropic/claude-3.5-sonnet, openai/gpt-4o)"
+    value="amazon/nova-2-lite-v1:free",
+    help="Enter the model name (e.g., amazon/nova-2-lite-v1:free, anthropic/claude-3.5-sonnet, openai/gpt-4o)"
 )
 
 st.sidebar.markdown("---")

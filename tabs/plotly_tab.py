@@ -70,5 +70,8 @@ def render_plotly_tab(df, api_key_input, model_choice):
         except Exception as e:
             st.error(f"Error rendering chart: {e}")
             st.info("Try rephrasing your request or ask to fix the error.")
+            # Show the problematic spec
+            st.write("**Problematic spec:**")
+            st.text(st.session_state.current_plotly_spec)
     else:
         st.info("💡 Ask me to create a Plotly visualization in the chat above.")
